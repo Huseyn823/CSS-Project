@@ -4,4 +4,4 @@ http://preview.themeforest.net/item/gmag-blog-news-magazine-template/full_screen
 
 Hazırladığım hissənin Preview-i:
 
-https://fluffy-torte-a0eaa1.netlify.app/
+https://merry-pastelito-f30669.netlify.app/
