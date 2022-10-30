@@ -4,4 +4,4 @@ http://preview.themeforest.net/item/gmag-blog-news-magazine-template/full_screen
 
 Hazırladığım hissənin Preview-i:
 
-https://fascinating-dragon-4ecf71.netlify.app/
+https://tranquil-croquembouche-64cc41.netlify.app/
