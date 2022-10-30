@@ -4,4 +4,4 @@ http://preview.themeforest.net/item/gmag-blog-news-magazine-template/full_screen
 
 Hazırladığım hissənin preview-i:
 
-https://earnest-gingersnap-fefe5e.netlify.app/
+https://playful-fairy-daaa86.netlify.app/
