@@ -4,4 +4,4 @@ http://preview.themeforest.net/item/gmag-blog-news-magazine-template/full_screen
 
 Hazırladığım hissənin Preview-i:
 
-https://tranquil-croquembouche-64cc41.netlify.app/
+https://moonlit-pony-3a72a0.netlify.app/
