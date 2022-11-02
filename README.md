@@ -4,4 +4,4 @@ http://preview.themeforest.net/item/gmag-blog-news-magazine-template/full_screen
 
 Hazırladığım hissənin Preview-i:
 
-https://moonlit-pony-3a72a0.netlify.app/
+https://dainty-gumption-c8ec80.netlify.app/
