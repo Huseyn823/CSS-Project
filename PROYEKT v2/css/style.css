@@ -214,37 +214,33 @@ html, body {
 
 
 /* DROPDOWN MENU FOR HOME */
-.nc-menu li:first-child{
+.nc-menu li:first-child:not(.dp-1 li){
     position: relative;
-}
-.nc-menu li li{
-    background-color: var(--bg-color-black);
-}
-.nc-menu li li a:nth-child(2){
-    padding-left: 90px;
-}
-.nc-menu li li a{
-    color: white;
+    background-color: red;
     
 }
 .nc-menu li ul{
-    width: 140px;
-    height: 36px;
-    position: absolute;
-    cursor: pointer;
-    top: 70px;
-    left: 1px;
-    display: none;
-    
+    width: 150px;
 }
-.dp-1{
-    width: 300px;
-    height: 300px;    
-    transition: 3s ease-in;
-}
-
-.nc-menu li:first-child a:hover + .dp-1{
-    
+.nc-menu li li{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--bg-color-black);
+    
+}
+.nc-menu li li a{
+    color: white;
+}
+.nc-menu li ul{
+    position: absolute;
+    top: 70px;
+    left: 1px;
+    flex-direction: column;
+    display: none;
+    
+    
+}
+.nc-menu li:first-child a:hover + .dp-1{
+    display: flex;
 }
