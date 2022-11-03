@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 *{
     box-sizing: border-box;
+    text-decoration:none;
 }
 html, body {
     font-family: 'Poppins', sans-serif;
@@ -10,7 +11,7 @@ html, body {
 :root{
     --bg-color-black: #292929;
     --bg-color-red: rgb(233, 51, 20);
-    --bg-border-grey: rgb(110, 110, 110);
+    --bg-border-grey: rgb(123, 122, 122);
 }
 /* Section 1 */
 
@@ -162,35 +163,10 @@ html, body {
     font-size: 11px;
     font-weight: 700;
 }
-
-/* DROPDOWN MENU FOR HOME */
-.nc-menu li:first-child{
-    position: relative;
-}
-.nc-menu li li{
-    transition: 0.3s;
-}
-.nc-menu li ul{
-    color: white;
-    cursor: pointer;
-    width: 150px;
-    height: 107px;
-    position: absolute;
-    top: 70px;
-    left: 1px;
-
-}
-.nc-menu li li:hover{
-    color: rgb(158, 158, 158);
-}
 /* MENU - links */
 
-.nc-menu li:first-child a{
-    color: rgb(158, 158, 158);
-}
-.nc-menu a{
-    text-decoration:none;
-    color: #222222;
+.nc-menu a:not(.active, .dp-1 a){
+    color: black;
 }
 .nc-menu li:not(.nc-icons) a{
     transition: 0.3s;
@@ -200,7 +176,7 @@ html, body {
     transform: rotateX(180deg);
     perspective: 900px;
 }
-.nc-menu li:not(.nc-icons) a:hover{
+.nc-menu li:not(.nc-icons) a:hover, .active{
     color: rgb(158, 158, 158);
 }
 
@@ -234,4 +210,41 @@ html, body {
 }
 .nc-icons a:first-child{
     border-left: 1px solid rgb(234, 232, 232);
+}
+
+
+/* DROPDOWN MENU FOR HOME */
+.nc-menu li:first-child{
+    position: relative;
+}
+.nc-menu li li{
+    background-color: var(--bg-color-black);
+}
+.nc-menu li li a:nth-child(2){
+    padding-left: 90px;
+}
+.nc-menu li li a{
+    color: white;
+    
+}
+.nc-menu li ul{
+    width: 140px;
+    height: 36px;
+    position: absolute;
+    cursor: pointer;
+    top: 70px;
+    left: 1px;
+    display: none;
+    
+}
+.dp-1{
+    width: 300px;
+    height: 300px;    
+    transition: 3s ease-in;
+}
+
+.nc-menu li:first-child a:hover + .dp-1{
+    
+    display: flex;
+    flex-direction: column;
 }
