@@ -4,4 +4,4 @@ http://preview.themeforest.net/item/gmag-blog-news-magazine-template/full_screen
 
 Hazırladığım hissənin Preview-i:
 
-https://tiny-sfogliatella-4a9ab1.netlify.app/
+https://sunny-pixie-000bcd.netlify.app/
