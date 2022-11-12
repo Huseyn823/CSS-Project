@@ -9,5 +9,8 @@ https://sunny-pixie-000bcd.netlify.app/
 Frontendmentor proyektlərim:
 
 https://github.com/Huseyn823/QR-card-frontendmentor 1) QR-CODE
+
 https://github.com/Huseyn823/Product-preview-card-component 2) Card Component
+
 https://github.com/Huseyn823/NFT-preview-card-component 3) NFT Card Component
+
